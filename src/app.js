@@ -8,7 +8,7 @@ app.use(express.json());
 
 // Sample Route
 app.get('/', (req, res) => {
-  res.send('Hello, rishika!');
+  res.send('Hello, world!');
 });
 
 // Error handling middleware
