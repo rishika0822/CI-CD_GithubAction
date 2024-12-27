@@ -1,20 +1,16 @@
 {
-  "name": "github-actions",
+  "name": "sample-node-project",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Sample Node.js Project",
+  "main": "app.js",
   "scripts": {
-    "start": "node src/server.js"
-
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Adem Cemil YALCIN",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.4.5",
-    "express": "^4.21.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.7"
+    "express":"latest",
+    "ejs":"latest"
   }
 }
